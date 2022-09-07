@@ -5,6 +5,6 @@
   tasks:  
   - name: Installing Apache2 on Ubuntu
     apt:
-      name: mywebpackonUbuntu
+      name: "{{mywebpackonUbuntu}}"
       state:  present
     when: ansible_os_family=="Debian"
