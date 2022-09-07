@@ -1,0 +1,9 @@
+[myWebServers]
+43.205.208.150
+
+
+
+
+[myWebServers:vars]
+mywebpackonUbuntu=apache2
+mywebpackonRedHat=httpd
